@@ -7,10 +7,10 @@ import "./App.css";
 function App() {
 	return (
 		<div className="App">
-			<UseState />
+			<UseState name="UseState" />
 			<br />
 			<hr />
-			<ClassState />
+			<ClassState name="ClassState" />
 		</div>
 	);
 }
